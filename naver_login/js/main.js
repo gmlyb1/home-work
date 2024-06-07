@@ -73,19 +73,19 @@ try {
 }
 
 try {
-  console.log(getNumberAtArray(numbers, 5)); // Error!
+  console.log(getNumberAtArray(numbers, 5));
 } catch (e) {
   console.error(e.message);
 }
 
 try {
-  console.log(getNumberAtArray(numbers, -1)); // Error!
+  console.log(getNumberAtArray(numbers, -1));
 } catch (e) {
   console.error(e.message);
 }
 
 try {
-  console.log(getNumberAtArray("not an array", 2)); // Provided input is not an array
+  console.log(getNumberAtArray("배열이 아닙니다", 2));
 } catch (e) {
   console.error(e.message);
 }
